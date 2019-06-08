@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cartoon Gif Search</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  </head>
+
+  <body class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-10">
+          <div class="card mb-4 bg-primary">
+            <div class="card-body">
+              <h1 class="card-title">Search for Cartoon Gifs!</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-7 col-sm-12 col-xs-12 mb-2" id="gif-buttons">
+          <div class="card">
+            <div class="card-header bg-primary">
+              <h3>Click a button to see some GIFs!</h3>
+              <h5>Add another cartoon!</h5>
+              <form class="form-inline my-2 my-lg-0">
+                <input
+                  class="form-control mr-sm-2"
+                  type="search"
+                  placeholder=""
+                  aria-label="Search"
+                  id="cartoon-input"
+                />
+                <button
+                  class="btn btn-dark my-2 my-sm-0"
+                  type="submit"
+                  id="submit-button"
+                >
+                  Search
+                </button>
+              </form>
+            </div>
+            <div class="card-body bg-secondary" id="cartoon-btn-div"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row pt-4">
+        <div class="col-md-12">
+          <div class="card">
+            <div class="card-header bg-primary">
+              <h5>Gif search results</h5>
+            </div>
+            <div class="card-body bg-secondary" id="results-div">
+              <div class="row">
+                <div class="col-md-12" id="click-to-play-text"></div>
+              </div>
+              <div class="row">
+                <div
+                  class="col-xs-12 col-sm-12 col-md-4"
+                  id="results-div-col1"
+                ></div>
+                <div
+                  class="col-xs-12 col-sm-12 col-md-4"
+                  id="results-div-col2"
+                ></div>
+                <div
+                  class="col-xs-12 col-sm-12 col-md-4"
+                  id="results-div-col3"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+  </body>
+</html>
