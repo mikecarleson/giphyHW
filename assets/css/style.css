@@ -6,11 +6,6 @@ body {
 
 }
 
-.container {
-    background: transparent !important;
-    overflow: hidden;
-}
-
 .card .card-body {
     background: transparent !important;
     border: none !important;
@@ -22,17 +17,19 @@ body {
 }
 
 .row {
-    background: transparent;
     width: 100vw;
 }
 
 .title {
     text-align: center;
-    padding-top: 5vh;
 }
 
 .search {
     text-align: center;
+}
+
+.toon-btns {
+    margin-top: 20px;
 }
 
 h4 {
@@ -40,3 +37,4 @@ h4 {
     text-align: center;
     font-size: 2rem;
 }
+
