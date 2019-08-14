@@ -1,15 +1,42 @@
 body {
     font-family: 'Permanent Marker', cursive;;
-    background: url(../images/rocco.jpg);
+    background: url(../images/cartoon.jpg)  no-repeat center center fixed;
     background-size: cover;
     color: black;
 
 }
 
+.container {
+    background: transparent !important;
+    overflow: hidden;
+}
+
 .card .card-body {
-    background: red;
+    background: transparent !important;
+    border: none !important;
+    justify-content: center !important;
 }
 
 #gif-buttons {
     border: none;
+}
+
+.row {
+    background: transparent;
+    width: 100vw;
+}
+
+.title {
+    text-align: center;
+    padding-top: 5vh;
+}
+
+.search {
+    text-align: center;
+}
+
+h4 {
+    color: #FF00CC;
+    text-align: center;
+    font-size: 2rem;
 }
